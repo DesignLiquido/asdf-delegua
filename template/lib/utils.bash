@@ -10,13 +10,11 @@ fail() {
 	exit 1
 }
 
-curl_opts=(-fsSL)
-
 listar_todas_versoes() {
-	npm view delegua versions | 
-		tr -d '[:blank:]' | 
-		tr -d '[]' | 
-		tr , '\n' | 
+	npm view delegua versions |
+		tr -d '[:blank:]' |
+		tr -d '[]' |
+		tr , '\n' |
 		tr -d \' |
 		sed '/^$/d'
 }
@@ -39,8 +37,8 @@ install_version() {
 	fi
 
 	(
-		local diretorio_npm_delegua
-		diretorio_npm_delegua=$(npm list -g | head -1)
+		# local diretorio_npm_delegua
+		# diretorio_npm_delegua=$(npm list -g | head -1)
 		mkdir -p "$install_path"
 		cp -r "$ASDF_DOWNLOAD_PATH"/* "$install_path"
 
