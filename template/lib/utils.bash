@@ -15,9 +15,9 @@ fail() {
 curl_opts=(-fsSL)
 
 # NOTE: You might want to remove this if <YOUR TOOL> is not hosted on GitHub releases.
-if [ -n "${GITHUB_API_TOKEN:-}" ]; then
-	curl_opts=("${curl_opts[@]}" -H "Authorization: token $GITHUB_API_TOKEN")
-fi
+# if [ -n "${GITHUB_API_TOKEN:-}" ]; then
+#	curl_opts=("${curl_opts[@]}" -H "Authorization: token $GITHUB_API_TOKEN")
+# fi
 
 sort_versions() {
 	sed 'h; s/[+-]/./g; s/.p\([[:digit:]]\)/.z\1/; s/$/.z/; G; s/\n/ /' |
@@ -66,9 +66,9 @@ install_version() {
 		tool_cmd="$(echo "$TOOL_TEST" | cut -d' ' -f1)"
 		test -x "$install_path/$tool_cmd" || fail "Expected $install_path/$tool_cmd to be executable."
 
-		echo "$TOOL_NAME $version installation was successful!"
+		echo "A instalação da versão $version de $TOOL_NAME foi feita com sucesso!"
 	) || (
 		rm -rf "$install_path"
-		fail "An error occurred while installing $TOOL_NAME $version."
+		fail "Um erro ocorreu ao instalar $TOOL_NAME $version."
 	)
 }

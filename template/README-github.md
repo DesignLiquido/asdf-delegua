@@ -1,33 +1,30 @@
 <div align="center">
 
-# asdf-<YOUR TOOL> [![Build](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/build.yml) [![Lint](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml/badge.svg)](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/actions/workflows/lint.yml)
+# asdf-delegua [![Build](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/build.yml/badge.svg)](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/build.yml) [![Lint](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/lint.yml)
 
-[<YOUR TOOL>](<TOOL HOMEPAGE>) plugin for the [asdf version manager](https://asdf-vm.com).
+O plugin de [Delégua](https://github.com/DesignLiquido/delegua) para o [asdf version manager](https://asdf-vm.com).
 
 </div>
 
-# Contents
+# Conteúdo
 
-- [Dependencies](#dependencies)
-- [Install](#install)
-- [Contributing](#contributing)
-- [License](#license)
+- [Dependências](#dependências)
+- [Instalação](#instalação)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-# Dependencies
+# Dependências
 
-**TODO: adapt this section**
+- `node`: Pelo menos da versão 16 em diante.
 
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
-
-# Install
+# Instalação
 
 Plugin:
 
 ```shell
-asdf plugin add <YOUR TOOL>
+asdf plugin add delegua
 # or
-asdf plugin add <YOUR TOOL> https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>.git
+asdf plugin add delegua https://github.com/DesignLiquido/asdf-delegua.git
 ```
 
 <YOUR TOOL>:
