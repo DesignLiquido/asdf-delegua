@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-delegua [![Build](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/build.yml/badge.svg)](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/build.yml) [![Lint](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/DesignLiquido/plugin-delegua-asdf/actions/workflows/lint.yml)
+# asdf-delegua [![Build](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/build.yml/badge.svg)](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/build.yml) [![Lint](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/lint.yml/badge.svg)](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/lint.yml)
 
 O plugin de [Delégua](https://github.com/DesignLiquido/delegua) para o [asdf version manager](https://asdf-vm.com).
 
@@ -27,17 +27,17 @@ asdf plugin add delegua
 asdf plugin add delegua https://github.com/DesignLiquido/asdf-delegua.git
 ```
 
-<YOUR TOOL>:
+Delégua:
 
 ```shell
 # Show all installable versions
-asdf list-all <YOUR TOOL>
+asdf list-all delegua
 
 # Install specific version
-asdf install <YOUR TOOL> latest
+asdf install delegua latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global <YOUR TOOL> latest
+asdf global delegua latest
 
 # Now <YOUR TOOL> commands are available
 <TOOL CHECK>
@@ -50,8 +50,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/DesignLiquido/asdf-delegua/graphs/contributors)!
 
-# License
+# Licença
 
-See [LICENSE](LICENSE) © [<YOUR NAME>](https://github.com/<YOUR GITHUB USERNAME>/)
+Veja o arquivo [LICENSE](LICENSE) © [Design Líquido](https://github.com/DesignLiquido/)
