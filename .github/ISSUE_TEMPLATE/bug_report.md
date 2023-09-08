@@ -1,27 +1,27 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Reportar um bug
+about: Use esta opção para nos avisar de algum erro ou mal funcionamento deste plugin
 title: ""
 labels: bug
 assignees: ""
 ---
 
-**Describe the bug**
+**Descreva o bug**
 
-<!-- A clear and concise description of what the bug is. -->
+<!-- Uma descrição clara e concisa do bug. -->
 
-**Steps to reproduce**
+**Passos para reprodução**
 
-<!-- Steps to reproduce the behavior: -->
+<!-- O que precisamos fazer para reproduzir o bug: -->
 
-**Expected behavior**
+**Comportamento esperado**
 
-<!-- A clear and concise description of what you expected to happen. -->
+<!-- O que você espera que aconteça. -->
 
-**Screenshots**
+**Imagens**
 
-<!-- If applicable, add screenshots to help explain your problem. -->
+<!-- Se achar necessário, adicione aqui imagens que ajudam a explicar o problema. -->
 
-**Additional context**
+**Contexto adicional**
 
-<!-- Add any other context about the problem here. -->
+<!-- Qualquer outra informação sobre o problema pode ser adicionada aqui. -->

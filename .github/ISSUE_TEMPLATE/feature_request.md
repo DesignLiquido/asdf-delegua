@@ -1,23 +1,23 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Pedido de nova funcionalidade
+about: Sugerir uma nova funcionalidade para este plugin
 title: ""
 labels: enhancement
 assignees: ""
 ---
 
-**Is your feature request related to a problem? Please describe.**
+**Seu pedido tem algo a ver com um problema? Se sim, por favor, descreva.**
 
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
+<!-- Uma explicação clara e concisa do problema. Exemplo: Sempre me frustra quando [...] -->
 
-**Describe the solution you'd like**
+**Descreva a solução que você gostaria.**
 
-<!-- A clear and concise description of what you want to happen. -->
+<!-- Uma explicação clara e concisa de como o plugin deveria se comportar. -->
 
-**Describe alternatives you've considered**
+**Descreva alternativas que você consideraria**
 
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
+<!-- Elabore aqui soluções alternativas ou funcionalidades que você também considera boas. -->
 
-**Additional context**
+**Contexto adicional**
 
-<!-- Add any other context or screenshots about the feature request here. -->
+<!-- Qualquer outra informação sobre a funcionalidade pode ser adicionada aqui. -->
