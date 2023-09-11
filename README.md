@@ -1,35 +1,56 @@
-# O plugin de Delégua para asdf
+<div align="center">
 
-Isto é um [plugin para a asdf-vm](https://asdf-vm.com/#/plugins-create) [que começou aqui](https://twitter.com/AkitaOnRails/status/1699632211949953198). 
+# asdf-delegua [![Build](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/build.yml/badge.svg)](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/build.yml) [![Lint](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/lint.yml/badge.svg)](https://github.com/DesignLiquido/asdf-delegua/actions/workflows/lint.yml)
 
-Assim como qualquer outro plugin do asdf, rodamos o [Shellcheck](https://github.com/koalaman/shellcheck) e [a GitHub Action de testes para o asdf](https://github.com/asdf-vm/actions).
+O plugin de [Delégua](https://github.com/DesignLiquido/delegua) para o [asdf version manager](https://asdf-vm.com).
 
-## Referências
+</div>
 
-1. `bash setup.bash`.
-1. `git push --force-with-lease`.
-1. `git grep TODO`.
-1. https://asdf-vm.com/plugins/create.html
+# Conteúdo
 
-## Contribuindo
+- [Dependências](#dependências)
+- [Instalação](#instalação)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-Contribuições são bem-vindas!
+# Dependências
 
-1. Instale as ferramentas do `asdf`
+- `node`: Pelo menos da versão 16 em diante.
 
-    ```shell
-    asdf plugin add shellcheck https://github.com/luizm/asdf-shellcheck.git
-    asdf plugin add shfmt https://github.com/luizm/asdf-shfmt.git
-    asdf install
-    ```
+# Instalação
 
-1. Desenvolva!
+Plugin:
 
-1. Lint & Formatação
+```shell
+asdf plugin add delegua
+# or
+asdf plugin add delegua https://github.com/DesignLiquido/asdf-delegua.git
+```
 
-    ```shell
-    ./scripts/format.bash
-    ./scripts/lint.bash
-    ```
+Delégua:
 
-1. Abrir PR
+```shell
+# Mostrar todas as versões instaláveis
+asdf list-all delegua
+
+# Instalar uma versão específica
+asdf install delegua latest
+
+# Definir uma versão globalmente (no seu arquivo ~/.tool-versions)
+asdf global delegua latest
+
+# Agora os comandos de `delegua` estão disponíveis
+delegua --versao
+```
+
+Verifique o README do [asdf](https://github.com/asdf-vm/asdf) para mais informações sobre como instalar e gerenciar versões.
+
+# Contribuindo
+
+Contribuições de qualquer tipo são bem-vindas! Veja o [guia de contribuição](contribuindo.md).
+
+[Obrigado a todos os contribuidores](https://github.com/DesignLiquido/asdf-delegua/graphs/contributors)!
+
+# Licença
+
+Veja o arquivo [LICENSE](LICENSE) © [Design Líquido](https://github.com/DesignLiquido/)
