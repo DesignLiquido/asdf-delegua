@@ -3,9 +3,9 @@
 Testando localmente:
 
 ```shell
-asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
+asdf plugin test delegua https://github.com/DesignLiquido/asdf-delegua.git [--asdf-tool-version <versão>] [--asdf-plugin-gitref <git-ref>] [comando-de-teste*]
 
-asdf plugin test <YOUR TOOL> https://github.com/<YOUR GITHUB USERNAME>/asdf-<YOUR TOOL>.git "<TOOL CHECK>"
+asdf plugin test delegua https://github.com/DesignLiquido/asdf-delegua.git --asdf-plugin-gitref main "delegua"
 ```
 
 Testes são automaticamente executados pelo GitHub Actions por push e em cada PR.
